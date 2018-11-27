@@ -1,0 +1,272 @@
+body {
+	font:15px/1.5 Arial ,Helvetica,sans-serif;
+	padding: 0;
+	margin: 0;
+}
+/* Global */
+.container{
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+}
+/* Header */
+header{
+	background: #ffffff;
+	color:#ffffff;
+	min-height: 15px;
+	border-bottom:#0066cc 2px solid;
+}
+
+header a{
+	color:#505050;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+
+}
+header ul{
+	margin: 0;
+	padding: 0;
+}
+header li{
+	float:left;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 28px;
+	padding-bottom: 20px;
+
+}
+header #logo{
+	float: left;
+	padding-top: 18px;
+}
+header #logo img{
+	margin: 0;
+	padding: 0;
+	width: 22%;
+	height: auto;
+}
+header nav {
+	float: right;
+	margin-top: 0px;
+}
+header li:hover{
+	background:#F0F0F0;
+	font-weight: bold;
+	transition: 0.5s;   
+}
+
+/*INVOICE */
+#invoice{
+	float: center;
+	width: 75%;
+	min-height:  100%;
+	margin:auto;
+	overflow: hidden;
+	background-color: #F8F8F8;
+	padding-left: 28px;
+	padding-right: 28px;
+}
+#invoice h1{
+	color:#505050;
+	text-transform: uppercase;
+	padding-top: 10px;
+	font-size: 35px;
+}
+#invoice h3{
+	color:#505050;
+	text-transform: uppercase;
+	padding-bottom: 8px;
+}
+.highlight{
+	color:#0066cc; 
+}
+.highlight-two{
+	color:#0066cc; 
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+
+/* Item Table */
+
+.invoice-table table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.invoice-table td, th {
+    text-align: left;
+    padding: 10px;
+    border:none;
+
+}
+
+.invoice-table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.invoice-table tr:last-child td {
+    border-top: 1px solid #484848;
+    padding-top: 30px;
+    background-color: #F8F8F8;
+}
+.square{
+      width: 20%;
+      height: 80%;
+      background: red;  
+}
+.left{
+	float: left;
+	width: 7%;
+	background-color:  #888888;  
+	overflow: hidden;
+	padding-right: 2px;
+	text-align: center; 
+	color: #ffffff;
+}
+.right {
+	float: right;
+	width: 90%;
+
+}
+.right p{
+	padding: 0;
+	margin:0;
+}
+#item{
+	font-weight: bold;
+	color: #505050;
+	text-transform: uppercase;
+}
+
+/* Info Table */
+.info-table table{
+    border-collapse: collapse;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.info-table td, th {
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border:none;
+    color: #505050;
+}
+
+/* Pay Status */
+.pay-status{
+	overflow: hidden;
+	width: 50%;
+	height: auto;
+	margin:0 auto;
+	border-top: #505050 1px dashed;
+	padding-top: 25px;
+}
+.pay-status p {
+	color: #505050;
+	text-align: center;
+	font-size: 16px;
+}
+#item-reg{
+	margin-bottom: 100px;
+}
+
+.pay-status a {
+	text-decoration: none;
+	color:#0066cc;
+}
+.pay-status a:hover{
+	color:#909090; 
+}
+
+/* Footer */
+#footer{
+	clear: both;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: -40px;
+	background: #ffffff;
+	border-top: #0066cc 1px solid;
+}
+.footer-social-icons{
+	width: 100%;
+	height: auto;
+	width: auto;
+}
+.footer-social-icons ul{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	padding-top: 8px;
+}
+.footer-social-icons ul li{
+	display: inline-block;
+	width:50px;
+	height: 50px;
+	margin:0px 10px ;
+	border-radius: 100%;
+	background: #F8F8F8;
+} 
+.footer-social-icons ul li:hover{
+	background:#C8C8C8; 
+} 
+.footer-social-icons ul li a{
+	color:#0066cc;
+	font-size: 25px;
+	line-height: 50px;
+	text-decoration: none;
+}
+.footer-menu-one{
+	width: 100%;
+	height:auto;
+	margin:auto;
+	margin-top: 20px;
+}
+.footer-menu-one ul{
+	margin:0px;
+	padding: 0px;
+	text-align: center;
+	padding-bottom: 8px
+}
+.footer-menu-one ul li{
+	display: inline-block;
+	margin:0 20px;
+}
+
+.footer-menu-one ul li a{
+	text-decoration: none;
+	color: #505050;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+.footer-menu-one ul li a:hover{
+	color:#909090; 
+}
+.footer-bottom{
+	width: 100%;
+	height: auto;
+	margin:auto;
+	background: #0066cc;
+	padding:0.1px;
+	text-align: center;
+	font-size: 13px;
+}
+.footer-bottom p {
+	font-weight:600;
+	letter-spacing: 1px;
+	color:#ffffff;
+}
+.footer-bottom p a {
+	text-decoration: none;
+	color:#ffffff;
+}
+.footer-bottom p a:hover {
+	color:#C8C8C8;
+}
+
